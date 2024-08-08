@@ -1,0 +1,17 @@
+/* What I originally had: 
+div {
+    p.text {
+        background-color: yellow;
+        color:red;
+        font-size: 20px;
+        text-align: center;
+    }
+} */
+ 
+/* What I should have put:*/
+div .text {
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
